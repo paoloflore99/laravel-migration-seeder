@@ -21,4 +21,4 @@ Route::get('/', function () {
 });
 
 //
-Route::get('/treni', [PageController::class, 'index'] );
+Route::get('/', [PageController::class, 'index'] );
